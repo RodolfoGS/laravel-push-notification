@@ -11,8 +11,14 @@
     "require": {
         "php": ">=5.3.0",
         "illuminate/support": "5.*",
-        "sly/notification-pusher": "2.*"
+        "sly/notification-pusher": "dev-mutable-content-support"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/RodolfoGS/NotificationPusher"
+        }
+    ],
     "autoload": {
         "psr-0": {
             "Davibennun\\LaravelPushNotification": "src/"
